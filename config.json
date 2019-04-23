@@ -1,10 +1,10 @@
 {
-    "poolHost": "POOL_URL",
+    "poolHost": "pool.scordite.one",
 
-    "coin": "electronero",
-    "symbol": "ETNX",
-    "coinUnits": 100,
-    "coinDecimalPlaces": 2,
+    "coin": "scordite",
+    "symbol": "XSD",
+    "coinUnits": 100000000,
+    "coinDecimalPlaces": 8,
     "coinDifficultyTarget": 60,
 
     "daemonType": "default",
@@ -148,12 +148,12 @@
 
     "daemon": {
         "host": "127.0.0.1",
-        "port": 3000
+        "port": 26111
     },
 
     "wallet": {
         "host": "127.0.0.1",
-        "port": 3000
+        "port": 27111
     },
 
     "redis": {
