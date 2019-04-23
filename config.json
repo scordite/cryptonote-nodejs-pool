@@ -9,8 +9,8 @@
 
     "daemonType": "default",
     "cnAlgorithm": "cryptonight",
-    "cnVariant": 4,
-    "cnBlobType": 3,
+    "cnVariant": 0,
+    "cnBlobType": 0,
 
     "logging": {
         "files": {
@@ -28,7 +28,7 @@
         "enabled": true,
         "clusterForks": "auto",
         "poolAddress": "POOL_ADDRESS",
-        "intAddressPrefix": 18019,
+        "intAddressPrefix": 31413,
         "subAddressPrefix": 42,
         "blockRefreshInterval": 1000,
         "minerTimeout": 900,
@@ -109,7 +109,7 @@
         "enabled": true,
         "interval": 2160,
         "maxAddresses": 10,
-        "mixin": 2,
+        "mixin": 1,
         "priority": 0,
         "transferFee": 20000,
         "dynamicTransferFee": true,
